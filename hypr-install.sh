@@ -6,6 +6,7 @@
 # |_| |_|\__, | .__/|_|  |_|\__,_|_| |_|\__,_| 
 #        |___/|_|                              
 #  
+#   by Ayoub Mohamed Amine
 
 # Perform system update
 sudo pacman -Syu
