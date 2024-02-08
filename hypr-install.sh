@@ -24,7 +24,7 @@ fi
 read -p "Do you want to start installing the list of packages? (y/n): " install_packages
 if [ "$install_packages" = "y" ]; then
     # Install the list of packages
-    packages="hyprland kitty dolphin jq hyprpaper waybar-hyprland waybar rofi wofi hyprshot pamixer pavucontrol brightnessctl htop btop pacman-contrib starship ttf-jetbrains-mono-nerd ttf-nerd-fonts"
+    packages="hyprland kitty thunar jq hyprpaper waybar-hyprland waybar rofi wofi hyprshot pamixer pavucontrol brightnessctl htop btop pacman-contrib starship ttf-jetbrains-mono-nerd ttf-nerd-fonts"
     yay -S $packages
     pacman -S bluez bluez-utils blueman
 fi
